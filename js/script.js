@@ -1,5 +1,7 @@
-'upe strict';
+'use strict';
 
-window.alert('Hello World!');
+const pi = 3.14;
+const radius = 5;
+const space = pi * pi * radius;
 
-window.alert(0);
+window.alert(space);
