@@ -2,6 +2,6 @@
 
 const pi = 3.14;
 const radius = 5;
-const space = pi * pi * radius;
+const space = radius * radius * pi;
 
 window.alert(`半径${radius}の円の面積は${space}です。`);
