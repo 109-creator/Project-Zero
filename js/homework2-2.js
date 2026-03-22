@@ -9,9 +9,9 @@ function isPrime(n) {
 }
 
 function listPrimes(limit) {
-    for (let i = 0; i < limit; i++) {
+    for (let i = 2; i < limit; i++) {
         if (isPrime(i) === true) { console.log(i); }    
     }
 }
 
-listPrimes
+listPrimes(50);
