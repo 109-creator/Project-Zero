@@ -6,9 +6,9 @@ const obj = {
 
     toString: function () {
         if (this.im < 0) {
-            return `${re}-${im}`;
+            return `${this.re}-${this.im}`;
         } else {
-            return `${re}+${im}`;
+            return `${this.re}+${this.im}`;
         }
     }
 };
