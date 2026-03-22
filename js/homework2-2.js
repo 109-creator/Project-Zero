@@ -2,8 +2,10 @@ function isPrime(n) {
     if (n < 2) { return false; }
     if (n === 2) { return true; }
     for (let k = 0; k <= n; k++) {
-        if (n % k === 0) { return false; }
-        break
+        if (n % k === 0) {
+            return false; 
+            break
+        }
     }
     return true;
 }
