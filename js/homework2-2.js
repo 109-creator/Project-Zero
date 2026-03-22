@@ -4,7 +4,6 @@ function isPrime(n) {
     for (let k = 2; k < n; k++) {
         if (n % k === 0) {
             return false; 
-            break;
         }
     }
     return true;
