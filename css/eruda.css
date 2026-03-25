@@ -1,0 +1,27 @@
+#erudaTap {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  z-index: 9998;
+}
+
+#erudaBtn {
+  position: fixed;
+  bottom: 70px;
+  left: 10px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
+  z-index: 9999;
+}
+
+#erudaBtn.show {
+  opacity: 0.5;
+  pointer-events: auto;
+}
